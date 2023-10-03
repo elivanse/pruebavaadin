@@ -1,0 +1,25 @@
+@import url('./main-layout.css');
+@import url('./views/map-view.css');    html {
+      --lumo-border-radius-s: calc(var(--lumo-size-m) / 6);
+      --lumo-border-radius-m: calc(var(--lumo-size-m) / 2);
+      --lumo-border-radius-l: var(--lumo-size-m);
+
+    }
+
+    [theme~="dark"] {
+      --lumo-primary-color: hsl(29, 90%, 55%);
+      --lumo-primary-color-50pct: hsla(29, 90%, 55%, 0.5);
+      --lumo-primary-color-10pct: hsla(29, 90%, 55%, 0.1);
+      --lumo-shade: hsl(179, 64%, 36%);
+      --lumo-shade-5pct: hsla(179, 64%, 36%, 0.05);
+      --lumo-shade-10pct: hsla(179, 64%, 36%, 0.1);
+      --lumo-shade-20pct: hsla(179, 64%, 36%, 0.2);
+      --lumo-shade-30pct: hsla(179, 64%, 36%, 0.3);
+      --lumo-shade-40pct: hsla(179, 64%, 36%, 0.4);
+      --lumo-shade-50pct: hsla(179, 64%, 36%, 0.5);
+      --lumo-shade-60pct: hsla(179, 64%, 36%, 0.6);
+      --lumo-shade-70pct: hsla(179, 64%, 36%, 0.7);
+      --lumo-shade-80pct: hsla(179, 64%, 36%, 0.8);
+      --lumo-shade-90pct: hsla(179, 64%, 36%, 0.9);
+
+    }
